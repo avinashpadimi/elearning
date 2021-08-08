@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  self_assignable: false
+  coach: one
+
+two:
+  name: MyString
+  self_assignable: false
+  coach: two
