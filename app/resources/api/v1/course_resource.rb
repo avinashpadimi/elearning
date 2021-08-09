@@ -4,7 +4,7 @@ module Api
       attributes :name, :self_assignable
       has_one :coach
 
-      filter :self_assignable, default: true
+      filter :self_assignable
 
       def self.assign_coach(courses, exclude_coaches)
         coach = find_coach exclude_coaches
